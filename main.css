@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: #22A699;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.wrapper{
+    background-color: #F2BE22;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 500px;
+    height: 330px;
+    text-align: center;
+    border: #F29727 solid 4px;
+}
+
+.form{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    background: #F29727;
+    color: #F24C3D;
+    font-size: 20px;
+    min-height: 94px;
+    min-width: 256px;
+    max-height: 156px;
+    max-width: 317px;
+    border: #F24C3D solid 4px;
+    transition: border .05s;
+    -webkit-transition: border .05s;
+    -moz-transition: border .05s;
+    -ms-transition: border .05s;
+    -o-transition: border .05s;
+    margin-bottom: 20px;
+
+}
+
+.message::placeholder{
+    color: #F24C3D;
+}
+
+.message:focus{
+    outline: none;
+    border: #F24C3D 7px solid;
+}
+
+button{
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    background-color: #F29727;
+    border: #F24C3D solid;
+    color: #F24C3D;
+    cursor: pointer;
+}
+label{
+    font-size: 20px; 
+    color: #F24C3D;
+}
+
+h1{
+    color: #F24C3D;
+}
+
+.cnt{
+    text-align: center;
+    background: #F29727;
+    color: #F24C3D;
+    margin-top: 10px;
+    padding: 10px;
+    width: 450px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border: #F2BE22 solid 4px;
+
+}
+
+
+.cnt p{
+    width: 420px;
+}
+
+.name{
+    width: 17px;
+    height: 17px;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F24C3D;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F24C3D;
+}
+::-webkit-scrollbar-thumb
+{
+	background-color: #F2BE22;
+	border-radius: 10px;
+	background: #F29727;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    height: 70px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-decoration: none;
+    color: #F24C3D;
+    background-color: #F2BE22;
+    text-align: center;
+    border: 4px solid #F29727;
+    margin-right: 10px;
+    height: 40px;
+    width: 90px;
+    font-size: 25px;
+  }
+
+  ul:first-child{
+    left: 10px;
+  }
+  
+.check{
+    width: 150px;
+}
+
